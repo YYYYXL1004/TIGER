@@ -4,7 +4,7 @@ This is an unofficial Pytorch Implementation for the paper
 >[Recommender Systems with Generative Retrieval](https://arxiv.org/pdf/2305.05065)
 
 # Model Architecture
-
+![Overview of TIGER](image.jpg "TIGER")
 
 # Data Decompression Instructions
 
