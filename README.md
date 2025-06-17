@@ -12,7 +12,7 @@ Step 1: Decompress the downloaded 5-core reviews and metadata from [Amazon Revie
 
 Step 2: Use `main.py` in `TIGER/rqvae` folder to train a rqvae model using semantic embeddings obtained in Step 1.
 
-Step 3: Use `generate_code.py` in `TIGER/rqvae` folder to select the best model to generate discrete code for semantic embeddings in Step 1 and padding at the last position to resolve duplicate codes
+Step 3: Use `generate_code.py` in `TIGER/rqvae` folder to select the best model to generate discrete code for semantic embeddings in Step 1 and padding at the last position to resolve duplicate codes.
 
 # References
 [Recommender Systems with Generative Retrieval](https://arxiv.org/pdf/2305.05065)
