@@ -34,7 +34,7 @@ def parse_args():
 
     parser.add_argument("--device", type=str, default="cuda:0", help="gpu or cpu")
 
-    parser.add_argument('--num_emb_list', type=int, nargs='+', default=[256,256, 256], help='emb num of every vq')
+    parser.add_argument('--num_emb_list', type=int, nargs='+', default=[256,256,256], help='emb num of every vq')
     parser.add_argument('--e_dim', type=int, default=32, help='vq codebook embedding size')
     parser.add_argument('--quant_loss_weight', type=float, default=1.0, help='vq quantion loss weight')
     parser.add_argument("--beta", type=float, default=0.25, help="Beta for commitment loss")
