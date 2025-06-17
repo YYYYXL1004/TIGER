@@ -22,8 +22,11 @@ Step 3: Use `generate_code.py` in `TIGER/rqvae` folder to select the best model 
     <th rowspan="2">Metric</th>
     <th colspan="2">Beauty</th>
     <th colspan="2">Sports</th>
+    <th colspan="2">Toys</th>
   </tr>
   <tr>
+    <th>Ours</th>
+    <th>Paper</th>
     <th>Ours</th>
     <th>Paper</th>
     <th>Ours</th>
@@ -35,6 +38,8 @@ Step 3: Use `generate_code.py` in `TIGER/rqvae` folder to select the best model 
     <td>0.0454</td>
     <td>0.0233</td>
     <td>0.0264</td>
+    <td>0.0396</td>
+    <td>0.0521</td>
   </tr>
   <tr>
     <td>Recall@10</td>
@@ -42,6 +47,8 @@ Step 3: Use `generate_code.py` in `TIGER/rqvae` folder to select the best model 
     <td>0.0648</td>
     <td>0.0379</td>
     <td>0.0400</td>
+    <td>0.0577</td>
+    <td>0.0712</td>
   </tr>
   <tr>
     <td>NDCG@5</td>
@@ -49,6 +56,8 @@ Step 3: Use `generate_code.py` in `TIGER/rqvae` folder to select the best model 
     <td>0.0321</td>
     <td>0.0150</td>
     <td>0.0181</td>
+    <td>0.0270</td>
+    <td>0.0371</td>
   </tr>
   <tr>
     <td>NDCG@10</td>
@@ -56,6 +65,8 @@ Step 3: Use `generate_code.py` in `TIGER/rqvae` folder to select the best model 
     <td>0.0384</td>
     <td>0.0197</td>
     <td>0.0225</td>
+    <td>0.0328</td>
+    <td>0.0432</td>
   </tr>
 </table>
 
