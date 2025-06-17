@@ -16,6 +16,51 @@ Step 3: Use `generate_code.py` in `TIGER/rqvae` folder to select the best model 
 
 # Train a T5 encoder-decoder model for Generative Recommendation
 
+# Results
+<table>
+  <tr>
+    <th rowspan="2">Metric</th>
+    <th colspan="2">Beauty</th>
+    <th colspan="2">Sports</th>
+  </tr>
+  <tr>
+    <th>Ours</th>
+    <th>Paper</th>
+    <th>Ours</th>
+    <th>Paper</th>
+  </tr>
+  <tr>
+    <td>Recall@5</td>
+    <td>0.0392</td>
+    <td>0.0454</td>
+    <td>0.0233</td>
+    <td>0.0264</td>
+  </tr>
+  <tr>
+    <td>Recall@10</td>
+    <td>0.0594</td>
+    <td>0.0648</td>
+    <td>0.0379</td>
+    <td>0.0400</td>
+  </tr>
+  <tr>
+    <td>NDCG@5</td>
+    <td>0.0257</td>
+    <td>0.0321</td>
+    <td>0.0150</td>
+    <td>0.0181</td>
+  </tr>
+  <tr>
+    <td>NDCG@10</td>
+    <td>0.0321</td>
+    <td>0.0384</td>
+    <td>0.0197</td>
+    <td>0.0225</td>
+  </tr>
+</table>
+
+
+
 # References
 [Recommender Systems with Generative Retrieval](https://arxiv.org/pdf/2305.05065)
 
