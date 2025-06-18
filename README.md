@@ -14,7 +14,7 @@ Step 2: Use `main.py` in `TIGER/rqvae` folder to train a rqvae model using seman
 
 Step 3: Use `generate_code.py` in `TIGER/rqvae` folder to select the best model to generate discrete code for semantic embeddings in Step 1 and padding at the last position to resolve duplicate codes.
 
-# Train a T5 encoder-decoder model for Generative Recommendation
+# Train a T5 encoder-decoder model
 
 # Experimental Results
 <table>
