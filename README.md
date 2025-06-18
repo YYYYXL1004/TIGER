@@ -16,7 +16,7 @@ Step 3: Use `generate_code.py` in `TIGER/rqvae` folder to select the best model 
 
 # Train a T5 encoder-decoder model for Generative Recommendation
 
-# Results
+# Experimental Results
 <table>
   <tr>
     <th rowspan="2">Metric</th>
