@@ -7,4 +7,4 @@ pytorch==1.8.0
 torch==1.10.1
 tqdm==4.66.1
 transformers==4.30.2
-sentence-transformers=2.2.2
+sentence-transformers==2.2.2
