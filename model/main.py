@@ -206,7 +206,7 @@ if __name__ == "__main__":
     parser.add_argument('--code_path', type=str, default='../data/Beauty/Beauty_t5_rqvae.npy', help='Path to the item-to-code mapping file')
     parser.add_argument('--mode', type=str, default='train', choices=['train', 'evaluation'], help='Mode of operation')
     parser.add_argument('--log_path', type=str, default='./logs/tiger.log', help='Path to the log file')
-    parser.add_argument('--seed', type=int, default=42, help='Random seed for reproducibility')
+    parser.add_argument('--seed', type=int, default=2025, help='Random seed for reproducibility')
     parser.add_argument('--save_path', type=str, default='./ckpt/tiger.pth', help='Path to save the trained model')
     parser.add_argument('--early_stop', type=int, default=10, help='Early stopping patience')
     parser.add_argument('--topk_list', type=list, default=[5,10,20], help='List of top-k values for evaluation metrics')
