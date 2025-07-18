@@ -21,9 +21,6 @@ def process_data(file_path, mode, max_len, PAD_TOKEN=0):
     # Combine "history" and "target" columns into a single sequence
     # Important: Ensure 'history' is a list and 'target' is appended correctly
     data['sequence'] = data['history'].apply(lambda x: list(x)) + data['target'].apply(lambda x: [x])
-    # print(f"前五条历史数据: {data['history'].head()}")
-    # print(f"前五条目标数据: {data['target'].head()}")
-    # print(f"前五条数据: {data['sequence'].head()}")
 
     if mode == 'train':
         # Sliding window processing
@@ -122,8 +119,6 @@ class GenRecDataset(Dataset):
         processed_data = process_data(
             self.dataset_path, self.mode, self.max_len, self.PAD_TOKEN
         )
-        # print(f"Processed {len(processed_data)} items from the dataset.")
-        # print(f"前五条数据: {processed_data[:5]}")
         # Convert items to codes
         for item in processed_data:
             item['history'] = [self.item_to_code.get(x, np.array([self.PAD_TOKEN]*4)) for x in item['history']]
