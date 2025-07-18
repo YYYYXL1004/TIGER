@@ -16,6 +16,8 @@ Step 3: Use `generate_code.py` in `TIGER/rqvae` folder to select the best model 
 
 # Train a T5 encoder-decoder model
 
+Use `main.py` in `TIGER/model` folder to train a T5 encoder-decoder model with semantic code.
+
 # Experimental Results
 <table>
   <tr>
