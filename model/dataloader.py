@@ -18,20 +18,6 @@ class GenRecDataLoader(DataLoader):
         super(GenRecDataLoader, self).__init__(dataset, batch_size=batch_size, shuffle=shuffle,
                                                num_workers=num_workers, collate_fn=collate_fn)
     
-    # def __iter__(self):
-    #     """
-    #     Custom iterator to yield batches of data.
-        
-    #     Returns:
-    #         Iterator: An iterator over the dataset.
-    #     """
-    #     for batch in super(GenRecDataLoader, self).__iter__():
-    #         # Convert batch to tensor if needed
-    #         if isinstance(batch, (list, tuple)):
-    #             batch = [torch.tensor(item) for item in batch]
-    #         elif isinstance(batch, dict):
-    #             batch = {k: torch.tensor(v) for k, v in batch.items()}
-    #         yield batch
             
     def collate_fn(self, batch, pad_token=0):
         """
