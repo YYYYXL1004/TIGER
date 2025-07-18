@@ -1,5 +1,5 @@
 # TIGER
-This is a Pytorch Implementation for the paper:
+This is an Unofficial Pytorch Implementation for the paper:
 
 >[Recommender Systems with Generative Retrieval](https://arxiv.org/pdf/2305.05065)
 
