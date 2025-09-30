@@ -44,9 +44,10 @@ def get_collision_item(all_indices_str):
 # Attention: Remember to change the dataset name and checkpoint path
 # if you want to generate codes for other datasets.
 dataset = "Beauty"
-ckpt_path = f"./ckpt/{dataset}/Jun-17-2025_15-21-52/best_collision_model.pth"
+# ckpt_path = f"./ckpt/{dataset}/Jun-17-2025_15-21-52/best_collision_model.pth"
+ckpt_path = './ckpt/Beauty/Sep-30-2025_13-06-43/best_collision_model.pth'
 output_file = f"../data/{dataset}/{dataset}_t5_rqvae.npy"
-device = torch.device("cuda:0")
+device = torch.device("cuda:1")
 
 ckpt = torch.load(ckpt_path, map_location=torch.device('cpu'))
 args = ckpt["args"]
